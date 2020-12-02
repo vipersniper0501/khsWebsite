@@ -75,7 +75,8 @@ ol, ul, dl {
     font-family: 'Comfortaa', serif;
     text-transform: uppercase;
     text-shadow: 1px 1px 10px #000;
-    transform: translateY(-60%);
+    position: relative;
+    transform: translateY(-50%);
 }
 
 /*Jumbotron*/
