@@ -1,0 +1,5 @@
+= KHS_Website
+
+This is the Repository for the Kaiserslautern High School Website!
+
+
