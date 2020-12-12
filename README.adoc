@@ -1,5 +1,7 @@
 = KHS_Website
 
+image:https://github.com/vipersniper0501/khsWebsite/workflows/CodeQL/badge.svg?branch=main[CodeQL, link=https://github.com/vipersniper0501/khsWebsite/actions?query=workflow%3ACodeQL]
+
 This is the Repository for the Kaiserslautern High School Website!
 
 
