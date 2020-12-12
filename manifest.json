@@ -1,0 +1,58 @@
+{
+    "name": "KHS Website",
+    "short_name": "KHS Website",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Kaiserslautern High School Website",
+    "icons": [{
+        "src": "images/logo.png",
+        "sizes": "1800x750",
+        "type": "image/png"
+    }, {
+        "src": "images/lunchPlan.png",
+        "sizes": "1316x889",
+        "type": "image/png"
+    }, {
+        "src": "images/scheduleLate.png",
+        "sizes": "1335x1915",
+        "type": "image/png"
+    }, {
+        "src": "images/scheduleRegular.png",
+        "sizes": "1335x1915",
+        "type": "image/png"
+    }, {
+        "src": "images/schoolCalendar.png",
+        "sizes": "1280x1036",
+        "type": "image/png"
+    }, {
+        "src": "images/schoolPicture1.png",
+        "sizes": "1024x400",
+        "type": "image/png"
+    }, {
+        "src": "images/schoolPicture2.png",
+        "sizes": "1024x400",
+        "type": "image/png"
+    }, {
+        "src": "images/schoolPicture3.png",
+        "sizes": "1024x400",
+        "type": "image/png"
+    }, {
+        "src": "images/cyberpatriotsLogo.png",
+        "sizes": "1200x1200",
+        "type": "image/png"
+    }, {
+        "src": "images/raiderLogo.png",
+        "sizes": "575x575",
+        "type": "image/png"
+    }, {
+        "src": "images/facebook.svg",
+        "type": "image/svg"
+    }, {
+        "src": "images/twitter.svg",
+        "type": "image/svg"
+    }, {
+        "src": "images/youtube.svg",
+        "type": "image/svg"
+    }]
+}

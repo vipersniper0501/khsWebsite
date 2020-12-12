@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://vynzii.tech/index.html</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://vynzii.tech/activities.html</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vynzii.tech/calendar.html</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vynzii.tech/clubs.html</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vynzii.tech/covid.html</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vynzii.tech/departments.html</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vynzii.tech/news.html</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vynzii.tech/organizations.html</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vynzii.tech/schedule.html</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vynzii.tech/students.html</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vynzii.tech/teachers.html</loc>
+        <priority>0.5</priority>
+    </url>
+
+
+</urlset>

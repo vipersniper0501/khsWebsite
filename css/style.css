@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: 'Average', serif;
-    background-color: #eaeaea;
+    background-color: #e9ecef;
     color: #000;
 }
 
@@ -15,7 +15,6 @@ button {
 }
 .btn-primary {
     background-color: transparent;
-    border: 0!important;
 }
 .container-fluid {
     padding: 0;
@@ -25,7 +24,6 @@ button {
 .navbar {
     background-color: #970805;
     padding: 0.1em 1em;
-    justify-items: space-between;
 }
 .navbar input {
     border-radius: 2em;
@@ -57,6 +55,10 @@ ol, ul, dl {
 .dropdown-menu {
     background-color: #d3d3d3;
     position: absolute;
+    float: right!important;
+    text-align: right;
+    min-width: 8em;
+    max-width: 10em;
 }
 .form-inline {
     display: inline-flex;
@@ -76,7 +78,7 @@ ol, ul, dl {
     text-transform: uppercase;
     text-shadow: 1px 1px 10px #000;
     position: relative;
-    transform: translateY(-50%);
+    transform: translateY(-1.25em);
 }
 
 /*Jumbotron*/
@@ -93,7 +95,6 @@ footer {
     text-align: center;
     background-color: #e1e1e1;
     color: #dc143c;
-    padding-top: 2em;
 }
 hr.light {
     border-top: 1px solid #dc143c;
@@ -104,6 +105,28 @@ hr.light {
 .col-12 {
     padding: 1em;
 }
+.btn-lg {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.btn:hover {
+    opacity: 0.75;
+}
+
+/*Featurette*/
+.featurette-divider {
+    margin: 5rem 0;
+}
+.featurette-heading {
+    font-size: 3.5em;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
 
 /*Media Queries*/
 @media all {
@@ -113,16 +136,24 @@ hr.light {
     .navbar .nav-item .dropdown-menu{margin-top: 0;}
 }
 @media (min-width: 576px) {
-
+    .carousel-caption h1 {
+        font-size: 200%;
+    }
 }
 @media (min-width: 768px) {
-
+    .carousel-caption h1 {
+        font-size: 300%;
+    }
 }
 @media (min-width: 992px) {
-
+    .carousel-caption h1 {
+        font-size: 400%;
+    }
 }
 @media (min-width: 1200px) {
-
+    .carousel-caption h1 {
+        font-size: 500%;
+    }
 }
 
 /*Firefox Bug Fix*/
@@ -133,6 +164,7 @@ hr.light {
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
 }
+
 /*Fixed Background Image*/
 figure {
     position: relative;
@@ -162,6 +194,7 @@ figure {
     transform: translateZ(0);
     will-change: transform;
 }
+
 /*Bootstrap Padding Fix*/
 [class*="col-"] {
     padding: 1em;
